@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC57BCF1A0B91B600C1BFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */; };
+		BDC57BD11A0B91B600C1BFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BD01A0B91B600C1BFC0 /* ViewController.swift */; };
+		BDC57BD41A0B91B600C1BFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD21A0B91B600C1BFC0 /* Main.storyboard */; };
+		BDC57BD61A0B91B600C1BFC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */; };
+		BDC57BD91A0B91B600C1BFC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD71A0B91B600C1BFC0 /* LaunchScreen.xib */; };
+		BDC57BE51A0B91B600C1BFC0 /* SunsalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BE41A0B91B600C1BFC0 /* SunsalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDC57BDF1A0B91B600C1BFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC57BC11A0B91B600C1BFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC57BC81A0B91B600C1BFC0;
+			remoteInfo = Sunsal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDC57BC91A0B91B600C1BFC0 /* Sunsal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunsal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC57BCD1A0B91B600C1BFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDC57BD01A0B91B600C1BFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDC57BD31A0B91B600C1BFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDC57BD81A0B91B600C1BFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDC57BDE1A0B91B600C1BFC0 /* SunsalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunsalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC57BE31A0B91B600C1BFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC57BE41A0B91B600C1BFC0 /* SunsalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC57BC61A0B91B600C1BFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC57BDB1A0B91B600C1BFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC57BC01A0B91B600C1BFC0 = {
+			isa = PBXGroup;
+			children = (
+				BDC57BCB1A0B91B600C1BFC0 /* Sunsal */,
+				BDC57BE11A0B91B600C1BFC0 /* SunsalTests */,
+				BDC57BCA1A0B91B600C1BFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC57BCA1A0B91B600C1BFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC57BC91A0B91B600C1BFC0 /* Sunsal.app */,
+				BDC57BDE1A0B91B600C1BFC0 /* SunsalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC57BCB1A0B91B600C1BFC0 /* Sunsal */ = {
+			isa = PBXGroup;
+			children = (
+				BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */,
+				BDC57BD01A0B91B600C1BFC0 /* ViewController.swift */,
+				BDC57BD21A0B91B600C1BFC0 /* Main.storyboard */,
+				BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */,
+				BDC57BD71A0B91B600C1BFC0 /* LaunchScreen.xib */,
+				BDC57BCC1A0B91B600C1BFC0 /* Supporting Files */,
+			);
+			path = Sunsal;
+			sourceTree = "<group>";
+		};
+		BDC57BCC1A0B91B600C1BFC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC57BCD1A0B91B600C1BFC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDC57BE11A0B91B600C1BFC0 /* SunsalTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC57BE41A0B91B600C1BFC0 /* SunsalTests.swift */,
+				BDC57BE21A0B91B600C1BFC0 /* Supporting Files */,
+			);
+			path = SunsalTests;
+			sourceTree = "<group>";
+		};
+		BDC57BE21A0B91B600C1BFC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC57BE31A0B91B600C1BFC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC57BC81A0B91B600C1BFC0 /* Sunsal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC57BE81A0B91B600C1BFC0 /* Build configuration list for PBXNativeTarget "Sunsal" */;
+			buildPhases = (
+				BDC57BC51A0B91B600C1BFC0 /* Sources */,
+				BDC57BC61A0B91B600C1BFC0 /* Frameworks */,
+				BDC57BC71A0B91B600C1BFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunsal;
+			productName = Sunsal;
+			productReference = BDC57BC91A0B91B600C1BFC0 /* Sunsal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDC57BDD1A0B91B600C1BFC0 /* SunsalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC57BEB1A0B91B600C1BFC0 /* Build configuration list for PBXNativeTarget "SunsalTests" */;
+			buildPhases = (
+				BDC57BDA1A0B91B600C1BFC0 /* Sources */,
+				BDC57BDB1A0B91B600C1BFC0 /* Frameworks */,
+				BDC57BDC1A0B91B600C1BFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC57BE01A0B91B600C1BFC0 /* PBXTargetDependency */,
+			);
+			name = SunsalTests;
+			productName = SunsalTests;
+			productReference = BDC57BDE1A0B91B600C1BFC0 /* SunsalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC57BC11A0B91B600C1BFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kims1006;
+				TargetAttributes = {
+					BDC57BC81A0B91B600C1BFC0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BDC57BDD1A0B91B600C1BFC0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BDC57BC81A0B91B600C1BFC0;
+					};
+				};
+			};
+			buildConfigurationList = BDC57BC41A0B91B600C1BFC0 /* Build configuration list for PBXProject "Sunsal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDC57BC01A0B91B600C1BFC0;
+			productRefGroup = BDC57BCA1A0B91B600C1BFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC57BC81A0B91B600C1BFC0 /* Sunsal */,
+				BDC57BDD1A0B91B600C1BFC0 /* SunsalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC57BC71A0B91B600C1BFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC57BD41A0B91B600C1BFC0 /* Main.storyboard in Resources */,
+				BDC57BD91A0B91B600C1BFC0 /* LaunchScreen.xib in Resources */,
+				BDC57BD61A0B91B600C1BFC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC57BDC1A0B91B600C1BFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC57BC51A0B91B600C1BFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC57BD11A0B91B600C1BFC0 /* ViewController.swift in Sources */,
+				BDC57BCF1A0B91B600C1BFC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC57BDA1A0B91B600C1BFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC57BE51A0B91B600C1BFC0 /* SunsalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDC57BE01A0B91B600C1BFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC57BC81A0B91B600C1BFC0 /* Sunsal */;
+			targetProxy = BDC57BDF1A0B91B600C1BFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDC57BD21A0B91B600C1BFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC57BD31A0B91B600C1BFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDC57BD71A0B91B600C1BFC0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC57BD81A0B91B600C1BFC0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDC57BE61A0B91B600C1BFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDC57BE71A0B91B600C1BFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDC57BE91A0B91B600C1BFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sunsal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDC57BEA1A0B91B600C1BFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sunsal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDC57BEC1A0B91B600C1BFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SunsalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunsal.app/Sunsal";
+			};
+			name = Debug;
+		};
+		BDC57BED1A0B91B600C1BFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SunsalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunsal.app/Sunsal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC57BC41A0B91B600C1BFC0 /* Build configuration list for PBXProject "Sunsal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC57BE61A0B91B600C1BFC0 /* Debug */,
+				BDC57BE71A0B91B600C1BFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC57BE81A0B91B600C1BFC0 /* Build configuration list for PBXNativeTarget "Sunsal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC57BE91A0B91B600C1BFC0 /* Debug */,
+				BDC57BEA1A0B91B600C1BFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDC57BEB1A0B91B600C1BFC0 /* Build configuration list for PBXNativeTarget "SunsalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC57BEC1A0B91B600C1BFC0 /* Debug */,
+				BDC57BED1A0B91B600C1BFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC57BC11A0B91B600C1BFC0 /* Project object */;
+}
