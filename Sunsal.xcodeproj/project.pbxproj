@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0F62F7225BF897D1AF3E11 /* libPods-Sunsal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C75EC1253F622CDDC3E0D8 /* libPods-Sunsal.a */; };
+		BD148ACB1A0B98330004713E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD148ACA1A0B98330004713E /* MainViewController.swift */; };
+		BD148ACD1A0BA1D80004713E /* OnlineJudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD148ACC1A0BA1D80004713E /* OnlineJudgeViewController.swift */; };
+		BD40077E1A10DC5700FE2BA7 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40077D1A10DC5700FE2BA7 /* AlbumManager.swift */; };
+		BD4007801A10DE5E00FE2BA7 /* codershigh.json in Resources */ = {isa = PBXBuildFile; fileRef = BD40077F1A10DE5E00FE2BA7 /* codershigh.json */; };
 		BDC57BCF1A0B91B600C1BFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */; };
-		BDC57BD11A0B91B600C1BFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BD01A0B91B600C1BFC0 /* ViewController.swift */; };
 		BDC57BD41A0B91B600C1BFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD21A0B91B600C1BFC0 /* Main.storyboard */; };
 		BDC57BD61A0B91B600C1BFC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */; };
 		BDC57BD91A0B91B600C1BFC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD71A0B91B600C1BFC0 /* LaunchScreen.xib */; };
@@ -26,10 +30,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CE9B77EDC36F913CD2E89E0 /* Pods-Sunsal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunsal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sunsal/Pods-Sunsal.debug.xcconfig"; sourceTree = "<group>"; };
+		6371EE085A46692F8B135FEA /* Pods-Sunsal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunsal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sunsal/Pods-Sunsal.release.xcconfig"; sourceTree = "<group>"; };
+		92C75EC1253F622CDDC3E0D8 /* libPods-Sunsal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sunsal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD148AC61A0B97C10004713E /* Sunsal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sunsal-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD148ACA1A0B98330004713E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BD148ACC1A0BA1D80004713E /* OnlineJudgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineJudgeViewController.swift; sourceTree = "<group>"; };
+		BD40077D1A10DC5700FE2BA7 /* AlbumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
+		BD40077F1A10DE5E00FE2BA7 /* codershigh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = codershigh.json; sourceTree = "<group>"; };
 		BDC57BC91A0B91B600C1BFC0 /* Sunsal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunsal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC57BCD1A0B91B600C1BFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDC57BD01A0B91B600C1BFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BDC57BD31A0B91B600C1BFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDC57BD81A0B91B600C1BFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0F62F7225BF897D1AF3E11 /* libPods-Sunsal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		979AFB405F84171D8BC90FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C75EC1253F622CDDC3E0D8 /* libPods-Sunsal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8AA3DB00C5B3EBA41F4A778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9B77EDC36F913CD2E89E0 /* Pods-Sunsal.debug.xcconfig */,
+				6371EE085A46692F8B135FEA /* Pods-Sunsal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BDC57BC01A0B91B600C1BFC0 = {
 			isa = PBXGroup;
 			children = (
 				BDC57BCB1A0B91B600C1BFC0 /* Sunsal */,
 				BDC57BE11A0B91B600C1BFC0 /* SunsalTests */,
 				BDC57BCA1A0B91B600C1BFC0 /* Products */,
+				B8AA3DB00C5B3EBA41F4A778 /* Pods */,
+				979AFB405F84171D8BC90FAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +109,15 @@
 			isa = PBXGroup;
 			children = (
 				BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */,
-				BDC57BD01A0B91B600C1BFC0 /* ViewController.swift */,
+				BD148ACA1A0B98330004713E /* MainViewController.swift */,
+				BD148ACC1A0BA1D80004713E /* OnlineJudgeViewController.swift */,
+				BD40077D1A10DC5700FE2BA7 /* AlbumManager.swift */,
 				BDC57BD21A0B91B600C1BFC0 /* Main.storyboard */,
 				BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */,
 				BDC57BD71A0B91B600C1BFC0 /* LaunchScreen.xib */,
+				BD40077F1A10DE5E00FE2BA7 /* codershigh.json */,
 				BDC57BCC1A0B91B600C1BFC0 /* Supporting Files */,
+				BD148AC61A0B97C10004713E /* Sunsal-Bridging-Header.h */,
 			);
 			path = Sunsal;
 			sourceTree = "<group>";
@@ -119,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDC57BE81A0B91B600C1BFC0 /* Build configuration list for PBXNativeTarget "Sunsal" */;
 			buildPhases = (
+				0DF3225583BFDD0F45CD8CF2 /* Check Pods Manifest.lock */,
 				BDC57BC51A0B91B600C1BFC0 /* Sources */,
 				BDC57BC61A0B91B600C1BFC0 /* Frameworks */,
 				BDC57BC71A0B91B600C1BFC0 /* Resources */,
+				105C73147A2F2187E6803D7A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +232,7 @@
 				BDC57BD41A0B91B600C1BFC0 /* Main.storyboard in Resources */,
 				BDC57BD91A0B91B600C1BFC0 /* LaunchScreen.xib in Resources */,
 				BDC57BD61A0B91B600C1BFC0 /* Images.xcassets in Resources */,
+				BD4007801A10DE5E00FE2BA7 /* codershigh.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +245,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DF3225583BFDD0F45CD8CF2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		105C73147A2F2187E6803D7A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sunsal/Pods-Sunsal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDC57BC51A0B91B600C1BFC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDC57BD11A0B91B600C1BFC0 /* ViewController.swift in Sources */,
+				BD148ACD1A0BA1D80004713E /* OnlineJudgeViewController.swift in Sources */,
+				BD40077E1A10DC5700FE2BA7 /* AlbumManager.swift in Sources */,
 				BDC57BCF1A0B91B600C1BFC0 /* AppDelegate.swift in Sources */,
+				BD148ACB1A0B98330004713E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -334,21 +407,32 @@
 		};
 		BDC57BE91A0B91B600C1BFC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE9B77EDC36F913CD2E89E0 /* Pods-Sunsal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Sunsal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sunsal/Sunsal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BDC57BEA1A0B91B600C1BFC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6371EE085A46692F8B135FEA /* Pods-Sunsal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Sunsal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sunsal/Sunsal-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +489,7 @@
 				BDC57BEA1A0B91B600C1BFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDC57BEB1A0B91B600C1BFC0 /* Build configuration list for PBXNativeTarget "SunsalTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +498,7 @@
 				BDC57BED1A0B91B600C1BFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
