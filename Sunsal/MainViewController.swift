@@ -64,7 +64,7 @@ class MainViewController: UITableViewController {
     
     func showHUD() {
         MBProgressHUD.showHUDAddedTo(navigationController!.view, animated: true)
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "hideHUD", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(10.0, target: self, selector: "hideHUD", userInfo: nil, repeats: false)
     }
     
     func hideHUD() {

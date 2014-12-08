@@ -10,13 +10,13 @@
 		8F0F62F7225BF897D1AF3E11 /* libPods-Sunsal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C75EC1253F622CDDC3E0D8 /* libPods-Sunsal.a */; };
 		BD148ACB1A0B98330004713E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD148ACA1A0B98330004713E /* MainViewController.swift */; };
 		BD148ACD1A0BA1D80004713E /* OnlineJudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD148ACC1A0BA1D80004713E /* OnlineJudgeViewController.swift */; };
-		BD40077E1A10DC5700FE2BA7 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40077D1A10DC5700FE2BA7 /* AlbumManager.swift */; };
 		BD4007801A10DE5E00FE2BA7 /* codershigh.json in Resources */ = {isa = PBXBuildFile; fileRef = BD40077F1A10DE5E00FE2BA7 /* codershigh.json */; };
 		BDC57BCF1A0B91B600C1BFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BCE1A0B91B600C1BFC0 /* AppDelegate.swift */; };
 		BDC57BD41A0B91B600C1BFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD21A0B91B600C1BFC0 /* Main.storyboard */; };
 		BDC57BD61A0B91B600C1BFC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD51A0B91B600C1BFC0 /* Images.xcassets */; };
 		BDC57BD91A0B91B600C1BFC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC57BD71A0B91B600C1BFC0 /* LaunchScreen.xib */; };
 		BDC57BE51A0B91B600C1BFC0 /* SunsalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC57BE41A0B91B600C1BFC0 /* SunsalTests.swift */; };
+		BDD1E9E11A35BD2500CC4790 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40077D1A10DC5700FE2BA7 /* AlbumManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD148ACD1A0BA1D80004713E /* OnlineJudgeViewController.swift in Sources */,
-				BD40077E1A10DC5700FE2BA7 /* AlbumManager.swift in Sources */,
+				BDD1E9E11A35BD2500CC4790 /* AlbumManager.swift in Sources */,
 				BDC57BCF1A0B91B600C1BFC0 /* AppDelegate.swift in Sources */,
 				BD148ACB1A0B98330004713E /* MainViewController.swift in Sources */,
 			);
